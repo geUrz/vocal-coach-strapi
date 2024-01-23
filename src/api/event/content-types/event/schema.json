@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "events",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "Blog",
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
     "description": ""
   },
   "options": {
@@ -14,8 +14,11 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "maxLength": 38
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
     },
     "image": {
       "type": "media",
@@ -24,10 +27,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "content": {
-      "type": "text",
-      "required": true
     },
     "gallery": {
       "type": "media",

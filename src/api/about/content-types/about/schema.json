@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "bloghomes",
+  "collectionName": "abouts",
   "info": {
-    "singularName": "bloghome",
-    "pluralName": "bloghomes",
-    "displayName": "Bloghome"
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
   },
   "options": {
     "draftAndPublish": true
